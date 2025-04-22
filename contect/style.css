@@ -1,0 +1,92 @@
+body{
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+nav .left{
+    color: rgb(217, 176, 80);
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 10px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+nav ul li a:hover{
+    color: rgb(217, 176, 80);
+    font-size: 1.05rem;
+}
+nav button{
+    border-width: 1px;
+    border-color: rgb(217, 176, 80);
+    color: rgb(217, 176, 80);
+    background-color: rgba(0,0,0,0);
+    border-radius: 5px;
+    height: 2.5rem;
+    cursor: pointer;
+}
+section{
+    text-align: center;
+}
+section .text{
+    text-align: center;
+}
+section .text h1{
+    color:rgb(217, 176, 80);
+}
+section .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .form .column{
+    margin: 15px;
+}
+section .form .column h4{
+    height: 5px;
+    color:rgb(217, 176, 80);
+}
+section .form .column input{
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+}
+section .message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .message h4{
+    height: 5px;
+    color:rgb(217, 176, 80);
+}
+section .message textarea{
+    width: 740px;
+    border-radius: 5px;
+}
+section button{
+    background-color: rgb(217, 176, 80);
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(217, 176, 80);
+}

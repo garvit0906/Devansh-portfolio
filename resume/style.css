@@ -1,0 +1,81 @@
+body{
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+nav .left{
+    color: rgb(217, 176, 80);
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 10px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+nav ul li a:hover{
+    color: rgb(217, 176, 80);
+    font-size: 1.05rem;
+}
+nav button{
+    border-width: 1px;
+    border-color: rgb(217, 176, 80);
+    color: rgb(217, 176, 80);
+    background-color: rgba(0,0,0,0);
+    border-radius: 5px;
+    height: 2.5rem;
+    cursor: pointer;
+}
+section{
+    color: white;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .right{
+    background-color: rgb(217, 176, 80);
+    width: 295px;
+}
+section .right h2{
+    margin-left: 15px;
+}
+section .right i{
+    font-size: 1.5rem;
+}
+section .right img{
+    height: 295px;
+    border-radius: 100%;
+}
+section .right .contact{
+    /* padding: 1px; */
+}
+section .right .contact ul li{
+    list-style: none;
+}
+section  .left{
+    width: 600px;
+    margin-left: 50px;
+}
+section .left .name{
+    font-size: 50px;
+    color: rgb(217, 176, 80);
+}
+section .left h1{
+    color: rgb(217, 176, 80);
+}
